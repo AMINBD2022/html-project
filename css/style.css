@@ -64,6 +64,7 @@ form input{
     border: 0;
     outline: none;
     border:1px solid #121210;
+    padding-bottom: 30px;
 }
 
 ol {
