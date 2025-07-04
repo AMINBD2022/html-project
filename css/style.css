@@ -2,8 +2,7 @@
     padding: 0;
     margin:0;
     box-sizing: border-box;
-    background-color: #101010;
-    color:#ffffff;
+
 }
 #main{
     max-width: 1200px;
@@ -46,10 +45,52 @@ ul li:hover{
     box-shadow: 0 0 20px rgb(82, 77, 77);
 }
 
-.div ol{
-    padding: 20px;
+
+
+form {
+    max-width: 600px;
+    display: block;
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 10px;
+
 }
 
-ol li{
-    list-style-type:upper-alpha  ;
+form input{
+    display: block;
+    padding: 15px;
+    width: 90%;
+    margin:auto;
+    border: 0;
+    outline: none;
+    border:1px solid #121210;
 }
+
+ol {
+    padding: 20px;
+    margin: 40px auto;
+    list-style-type:lower-roman;
+    background-color: #f0f8ff;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: inline-block;
+    list-style-position: outside; /* keeps marker outside the content box */
+}
+
+ol li {
+    padding: 10px 20px;
+    margin: 5px 30px;
+    color: #333;
+    font-weight: bold;
+    transition: background 0.3s;
+    padding-left: 30px; 
+    text-transform: capitalize;
+    position: relative;
+}
+
+ol li::marker {
+    padding-right: 10px; 
+}
+
